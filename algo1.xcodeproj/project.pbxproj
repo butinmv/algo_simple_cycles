@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DD6EC81F5DB59B00147DF3 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2DD6EC71F5DB59B00147DF3 /* ResourcePath.mm */; };
+		A2DD6ECB1F5DB59B00147DF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DD6ECA1F5DB59B00147DF3 /* main.cpp */; };
+		A2DD6EE21F5DB6EC00147DF3 /* button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DD6EE01F5DB6EC00147DF3 /* button.cpp */; };
+		A2DD6EE61F5DB72800147DF3 /* cour.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2DD6EE41F5DB72800147DF3 /* cour.ttf */; };
+		A2DD6EE71F5DB72800147DF3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DD6EE51F5DB72800147DF3 /* icon.png */; };
+		A2DD6EEB1F5DB79D00147DF3 /* programmObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DD6EE91F5DB79D00147DF3 /* programmObject.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2DD6EC21F5DB59B00147DF3 /* algo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DD6EC61F5DB59B00147DF3 /* algo1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "algo1-Info.plist"; sourceTree = "<group>"; };
+		A2DD6EC71F5DB59B00147DF3 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ResourcePath.mm; path = algo1/ResourcePath.mm; sourceTree = "<group>"; };
+		A2DD6EC91F5DB59B00147DF3 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ResourcePath.hpp; path = algo1/ResourcePath.hpp; sourceTree = "<group>"; };
+		A2DD6ECA1F5DB59B00147DF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2DD6EE01F5DB6EC00147DF3 /* button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = button.cpp; sourceTree = "<group>"; };
+		A2DD6EE11F5DB6EC00147DF3 /* button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = button.hpp; sourceTree = "<group>"; };
+		A2DD6EE41F5DB72800147DF3 /* cour.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cour.ttf; sourceTree = "<group>"; };
+		A2DD6EE51F5DB72800147DF3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A2DD6EE91F5DB79D00147DF3 /* programmObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = programmObject.cpp; path = algo1/programmObject.cpp; sourceTree = "<group>"; };
+		A2DD6EEA1F5DB79D00147DF3 /* programmObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = programmObject.hpp; path = algo1/programmObject.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DD6EBE1F5DB59B00147DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DD6EB81F5DB59B00147DF3 = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EC41F5DB59B00147DF3 /* algo1 */,
+				A2DD6EC31F5DB59B00147DF3 /* Products */,
+				A2DD6EC51F5DB59B00147DF3 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DD6EC31F5DB59B00147DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EC21F5DB59B00147DF3 /* algo1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DD6EC41F5DB59B00147DF3 /* algo1 */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EE31F5DB70C00147DF3 /* ResourcePath */,
+				A2DD6EE81F5DB76500147DF3 /* ProgrammObject */,
+				A2DD6ECC1F5DB59B00147DF3 /* Resources */,
+				A2DD6EDF1F5DB6DC00147DF3 /* Button */,
+				A2DD6ECA1F5DB59B00147DF3 /* main.cpp */,
+			);
+			path = algo1;
+			sourceTree = "<group>";
+		};
+		A2DD6EC51F5DB59B00147DF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EC61F5DB59B00147DF3 /* algo1-Info.plist */,
+			);
+			name = "Supporting Files";
+			path = algo1;
+			sourceTree = "<group>";
+		};
+		A2DD6ECC1F5DB59B00147DF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EE41F5DB72800147DF3 /* cour.ttf */,
+				A2DD6EE51F5DB72800147DF3 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2DD6EDF1F5DB6DC00147DF3 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EE01F5DB6EC00147DF3 /* button.cpp */,
+				A2DD6EE11F5DB6EC00147DF3 /* button.hpp */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		A2DD6EE31F5DB70C00147DF3 /* ResourcePath */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EC71F5DB59B00147DF3 /* ResourcePath.mm */,
+				A2DD6EC91F5DB59B00147DF3 /* ResourcePath.hpp */,
+			);
+			name = ResourcePath;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A2DD6EE81F5DB76500147DF3 /* ProgrammObject */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD6EE91F5DB79D00147DF3 /* programmObject.cpp */,
+				A2DD6EEA1F5DB79D00147DF3 /* programmObject.hpp */,
+			);
+			name = ProgrammObject;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DD6EC11F5DB59B00147DF3 /* algo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DD6ED71F5DB59B00147DF3 /* Build configuration list for PBXNativeTarget "algo1" */;
+			buildPhases = (
+				A2DD6EBD1F5DB59B00147DF3 /* Sources */,
+				A2DD6EBE1F5DB59B00147DF3 /* Frameworks */,
+				A2DD6EBF1F5DB59B00147DF3 /* Resources */,
+				A2DD6EC01F5DB59B00147DF3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = algo1;
+			productName = algo1;
+			productReference = A2DD6EC21F5DB59B00147DF3 /* algo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DD6EB91F5DB59B00147DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maxim Butin";
+				TargetAttributes = {
+					A2DD6EC11F5DB59B00147DF3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2DD6EBC1F5DB59B00147DF3 /* Build configuration list for PBXProject "algo1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2DD6EB81F5DB59B00147DF3;
+			productRefGroup = A2DD6EC31F5DB59B00147DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DD6EC11F5DB59B00147DF3 /* algo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DD6EBF1F5DB59B00147DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DD6EE71F5DB72800147DF3 /* icon.png in Resources */,
+				A2DD6EE61F5DB72800147DF3 /* cour.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2DD6EC01F5DB59B00147DF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DD6EBD1F5DB59B00147DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DD6ECB1F5DB59B00147DF3 /* main.cpp in Sources */,
+				A2DD6EE21F5DB6EC00147DF3 /* button.cpp in Sources */,
+				A2DD6EC81F5DB59B00147DF3 /* ResourcePath.mm in Sources */,
+				A2DD6EEB1F5DB79D00147DF3 /* programmObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2DD6ED51F5DB59B00147DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		A2DD6ED61F5DB59B00147DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		A2DD6ED81F5DB59B00147DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "algo1/algo1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2DD6ED91F5DB59B00147DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "algo1/algo1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DD6EBC1F5DB59B00147DF3 /* Build configuration list for PBXProject "algo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DD6ED51F5DB59B00147DF3 /* Debug */,
+				A2DD6ED61F5DB59B00147DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DD6ED71F5DB59B00147DF3 /* Build configuration list for PBXNativeTarget "algo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DD6ED81F5DB59B00147DF3 /* Debug */,
+				A2DD6ED91F5DB59B00147DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DD6EB91F5DB59B00147DF3 /* Project object */;
+}
